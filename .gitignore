@@ -1,0 +1,85 @@
+# ==============================================================================
+# Git Ignore for DevOps Knowledge Base & Documentation
+# ==============================================================================
+
+# Personal & Non-Documentation files (CVs, Resumes, HTML CV)
+*CV*
+*cv*
+*Resume*
+*resume*
+*.pdf
+/index.html
+
+# Python scripts & execution artifacts
+# (Excludes scratch scripts like index.py while keeping requirements.txt)
+*.py
+index.py
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Packaging & Distribution
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Linting caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# MkDocs generated static site build
+site/
+
+# IDE & Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Secrets & Environment variables
+.env
+.env.*
+*.pem
+*.key
+
+# Logs
+*.log

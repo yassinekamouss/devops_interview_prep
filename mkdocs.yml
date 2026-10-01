@@ -1,0 +1,177 @@
+site_name: DevOps Interview & Architecture Knowledge Base
+site_description: Personal revision notes and technical cheatsheets
+
+theme:
+  name: material
+  language: en
+
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+
+    - search.suggest
+    - search.highlight
+    - search.share
+
+    - content.code.copy
+    - content.code.annotate
+    - content.code.select
+
+    - toc.follow
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.keys
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Docker:
+      - Vue d'ensemble: docker/docker.md
+      - 1. Introduction à Docker": docker/01-introduction.md
+      - 2. Architecture interne": docker/02-architecture.md
+      - 3. Installation": docker/03-installation.md
+      - 4. Images Docker": docker/04-images.md
+      - 5. Les conteneurs": docker/05-containers.md
+      - 6. Dockerfile": docker/06-dockerfile.md
+      - 7. Réseau Docker": docker/07-networking.md
+      - 8. Volumes": docker/08-volumes.md
+      - 9. Variables d'environnement": docker/09-env-vars.md
+      - 10. Docker Compose": docker/10-compose.md
+      - 11. Registres Docker": docker/11-registries.md
+      - 12. Sécurité Docker": docker/12-security.md
+      - 13. Débogage": docker/13-debugging.md
+      - 14. Docker en production": docker/14-production.md
+      - 15. Docker et DevOps": docker/15-devops.md
+      - 16. Docker et Kubernetes": docker/16-kubernetes.md
+      - 17. Questions d'entretien Oracle": docker/17-interview-questions.md
+  - Git:
+      - Vue d'ensemble: git/git.md
+      - 01 Fondamentaux et cycle: git/01-fondamentaux-cycle.md
+      - 02 Commits et historique: git/02-commits-historique.md
+      - 03 Branches et merge: git/03-branches-merge.md
+      - 04 Conflits et rebase: git/04-conflits-rebase.md
+      - 05 Reset revert amend: git/05-reset-revert-amend.md
+      - 06 Stash: git/06-stash.md
+      - 07 Workflow et bonnes pratiques: git/07-workflow-bonnes-pratiques.md
+      - 08 Cheatsheet entretien: git/08-cheatsheet-entretien.md
+  - LeetCode:
+      - Vue d'ensemble: leetcode/leetcode.md
+      - 01 Hash Maps et Sets: leetcode/01-hash-maps-sets.md
+      - 02 Two Pointers: leetcode/02-two-pointers.md
+      - 03 Sliding Window: leetcode/03-sliding-window.md
+      - 04 Binary Search: leetcode/04-binary-search.md
+      - 05 Stack et Monotonic Stack: leetcode/05-stack-monotonic-stack.md
+      - 06 Linked Lists: leetcode/06-linked-lists.md
+      - 07 Fast et Slow Pointers: leetcode/07-fast-slow-pointers.md
+      - 08 Trees et DFS: leetcode/08-trees-dfs.md
+      - 09 BFS: leetcode/09-bfs.md
+      - 10 Heaps et Priority Queues: leetcode/10-heaps.md
+      - 11 Intervals: leetcode/11-intervals.md
+      - 12 Prefix Sum: leetcode/12-prefix-sum.md
+      - 13 Backtracking: leetcode/13-backtracking.md
+      - 14 Graphs: leetcode/14-graphs.md
+      - 15 Topological Sort: leetcode/15-topological-sort.md
+      - 16 Union Find: leetcode/16-union-find.md
+      - 17 Greedy: leetcode/17-greedy.md
+      - 18 Dynamic Programming: leetcode/18-dynamic-programming.md
+      - 19 Dijkstra: leetcode/19-dijkstra.md
+      - 20 Minimum Spanning Tree: leetcode/20-minimum-spanning-tree.md
+      - 21 Trie: leetcode/21-trie.md
+      - 22 Bit Manipulation: leetcode/22-bit-manipulation.md
+      - 23 Pattern Combinations: leetcode/23-pattern-combinations.md
+      - 24 Cheatsheet entretien: leetcode/24-cheatsheet-entretien.md
+  - CI/CD:
+      - Vue d'ensemble: ci-cd/cicd.md
+      - 01 Introduction à CI/CD: ci-cd/01-fondamentaux.md
+      - 02 Architecture et pipeline: ci-cd/02-architecture-pipeline.md
+      - 03 Outils et plateformes: ci-cd/03-jenkins-github-actions.md
+      - 04 Qualité et DevSecOps: ci-cd/04-qualite-devsecops.md
+      - 05 Strategies de déploiement: ci-cd/05-strategies-deploiement.md
+      - 06 Artefacts et secrets: ci-cd/06-artefacts-secrets.md
+      - 07 Introduction à GitOps: ci-cd/07-intro-gitops.md
+      - 08 Bonnes pratiques: ci-cd/08-bonnes-pratiques.md
+      - 09 Cheatsheet entretien: ci-cd/09-cheatsheet-entretien.md
+  - Kubernetes:
+      - 00 Architecture et Fondamentaux : kubernetes/kubernetes.md
+      - 01 Workloads & Cycle de vie : kubernetes/01-workloads-lifecycle.md
+      - 02 Réseau & Sécurité (Deep Dive) : kubernetes/02-networking-security.md
+      - 03 Stockage & Configuration : kubernetes/03-stockage-configuration.md
+      - 04 Scheduling & Scalabilité : kubernetes/04-scheduling-scalability.md
+      - 05 Observabilité & Troubleshooting : kubernetes/05-observability-troubleshooting.md
+      - 06 Templating & GitOps : kubernetes/06-gitops-helm-argocd.md
+      - 07 Production & Cloud Managed (OKE / EKS) : kubernetes/07-cloud-production.md
+      - 08 Cheatsheet Entretien R&D : kubernetes/08-cheatsheet-entretien.md
+  - GitOps (ArgoCD):
+      - Vue d'ensemble: gitops/gitops.md
+      - 01 Fondamentaux & Principes: gitops/01-fondamentaux-principes.md
+      - 02 Architecture interne ArgoCD: gitops/02-architecture-argocd.md
+      - 03 CRDs (Application & AppProject): gitops/03-manifestes-core.md
+      - 04 Multi-Cluster & ApplicationSet: gitops/04-applicationset-multi-cluster.md
+      - 05 Sync Waves, Hooks & Tracking: gitops/05-synchronisation-hooks-waves.md
+      - 06 Gestion des Secrets: gitops/06-gestion-secrets-gitops.md
+      - 07 Argo Rollouts (Canary & Blue-Green): gitops/07-deploiements-avances-argo-rollouts.md
+      - 08 Sécurité, RBAC & Multi-Tenancy: gitops/08-securite-rbac-multi-tenancy.md
+      - 09 Troubleshooting & Incidents: gitops/09-troubleshooting-production.md
+      - 10 Cheatsheet Entretien R&D: gitops/10-cheatsheet-entretien.md
+  - Terraform & AWS:
+      - Vue d'ensemble: terraform-aws/terraform-aws.md
+      - 01 Fondamentaux IaC & Syntaxe HCL: terraform-aws/01-fondamentaux-hcl.md
+      - 02 Commandes Core & Cycle de vie: terraform-aws/02-commandes-cycle-vie.md
+      - 03 Le State & Remote Backend (S3 + DynamoDB): terraform-aws/03-state-remote-backend.md
+      - 04 Variables, Locals & Outputs: terraform-aws/04-variables-locals-outputs.md
+      - 05 Création et utilisation de Modules: terraform-aws/05-modules.md
+      - 06 AWS Networking (VPC, Subnets, SG, NAT): terraform-aws/06-aws-networking.md
+      - 07 AWS IAM & Sécurité (Policies, Roles): terraform-aws/07-aws-iam.md
+      - 08 Provisionnement Cloud (EKS, EC2, S3, RDS): terraform-aws/08-provisionnement-infra.md
+      - 09 Automatisation (Terraform via CI/CD): terraform-aws/09-ci-cd-automation.md
+      - 10 Cheatsheet Entretien: terraform-aws/10-cheatsheet-entretien.md
