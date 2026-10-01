@@ -1,5 +1,8 @@
 site_name: DevOps Interview & Architecture Knowledge Base
 site_description: Personal revision notes and technical cheatsheets
+site_url: https://yassinekamouss.github.io/devops_interview_prep/
+repo_url: https://github.com/yassinekamouss/devops_interview_prep
+repo_name: yassinekamouss/devops_interview_prep
 
 theme:
   name: material
