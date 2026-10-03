@@ -11,6 +11,7 @@ Chaque identité (humain, pipeline CI/CD, conteneur Kubernetes) ne doit recevoir
 
 ### B. Mort des Clés Permanentes : La Puissance des IAM Roles
 En entreprise moderne :
+
 * **IAM User + Access Keys statiques (`AKIA...`) :** **Banni.** Les clés statiques finissent inévitablement par fuiter dans un commit Git public ou un log CI/CD.
 * **IAM Role + STS (Security Token Service) :** **Standard absolu.** Un rôle ne possède aucun mot de passe ni clé permanente. AWS STS génère des identifiants temporaires cryptographiques valides de quelques minutes à quelques heures.
 
@@ -63,6 +64,7 @@ flowchart TD
 
 !!! tip "Pourquoi préférer `data.aws_iam_policy_document` à `jsonencode` ?"
     Bien qu'écrire du JSON brut avec `jsonencode` soit supporté, la bonne pratique professionnelle est d'utiliser la data source **`aws_iam_policy_document`** :
+    
     - Vérification syntaxique par Terraform dès l'étape `plan`.
     - Pas de risque d'erreur de typage ou de virgule JSON mal placée.
     - Facilité de fusion de politiques multiples via l'argument `source_policy_documents`.
@@ -139,6 +141,7 @@ resource "aws_instance" "app_node" {
 ## 4. Deep Dive EKS : IRSA (IAM Roles for Service Accounts)
 
 Dans un cluster Kubernetes (Amazon EKS), une problématique de sécurité majeure se pose :
+
 * **Le problème :** Si vous attachez un rôle IAM au nœud EC2 (Worker Node), **TOUS les Pods** hébergés sur cette machine héritent des mêmes permissions Cloud ! Si un conteneur non privilégié est compromis, l'attaquant a accès à votre base de données ou à votre bucket S3.
 * **La solution :** **IRSA (IAM Roles for Service Accounts)**. IRSA associe un Rôle IAM directement à un `ServiceAccount` Kubernetes via le protocole **OIDC (OpenID Connect)**.
 

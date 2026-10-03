@@ -142,6 +142,7 @@ resource "aws_vpc" "main" {
 ## 4. Les Sorties (`outputs`)
 
 Les **Outputs** remplissent trois missions critiques :
+
 1. **Afficher des informations utiles** à la fin du déploiement (ex: l'URL publique de l'Application Load Balancer ou l'ID du cluster EKS).
 2. **Exposer des données d'un Child Module** vers le Root Module.
 3. **Partager des données entre projets distincts** via `data "terraform_remote_state"`.

@@ -201,6 +201,7 @@ moved {
 
 !!! warning "Anti-pattern d'entretien : Le 'God Module' (Monolithe)"
     Créer un module unique géant qui déploie le VPC, le cluster EKS, la base RDS et le domaine Route53 en un seul bloc est un anti-pattern majeur :
+    
     - Impossible à tester unitairement.
     - Très rigide et non réutilisable pour d'autres équipes.
     - Cycle de vie asymétrique : un VPC change rarement, alors qu'un service EKS change quotidiennement.

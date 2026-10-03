@@ -171,6 +171,7 @@ Lock Info:
 ```
 
 **Procédure de déblocage chirurgicale :**
+
 1. **Vérification humaine :** S'assurer qu'aucun autre pipeline ni collègue n'est effectivement en cours de déploiement sur ce composant.
 2. **Déverrouillage d'urgence :**
 ```bash
@@ -181,6 +182,7 @@ terraform force-unlock b1a2c3d4-5678-90ab-cdef-1234567890ab
 
 !!! warning "Anti-pattern : Le State Monolithique"
     Mettre l'ensemble du Cloud (VPC + EKS + RDS + IAM) dans **un seul et unique fichier State** est une erreur architecturale grave :
+    
     - Un `plan` prend des dizaines de minutes.
     - Une erreur d'inattention sur un tag peut casser la base de production.
     - Le risque de blocage par verrou paralyse toute l'équipe technique.

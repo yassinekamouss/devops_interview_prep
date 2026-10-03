@@ -44,6 +44,7 @@ flowchart TD
 
 !!! info "La Règle des 5 Adresses IP Réservées par AWS dans chaque Subnet"
     Dans n'importe quel sous-réseau AWS (par exemple `10.0.1.0/24`, soit 256 adresses théoriques), vous ne disposez que de **251 adresses utilisables**. AWS réserve toujours 5 adresses :
+    
     1. `.0` : Adresse réseau.
     2. `.1` : Routeur virtuel VPC.
     3. `.2` : Serveur DNS d'Amazon (Amazon Provided DNS / Route 53 Resolver).

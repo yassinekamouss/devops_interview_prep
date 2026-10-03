@@ -7,6 +7,7 @@ En environnement d'entreprise, exécuter `terraform apply` depuis son ordinateur
 ## 1. Le Workflow IaC en Entreprise
 
 Le pipeline d'automatisation d'infrastructure sépare le cycle en deux phases distinctes :
+
 1. **Phase de Pull Request (Validation) :** Exécutée à chaque commit sur une branche de feature. Elle teste le code et affiche ce qui va changer sans rien modifier sur AWS.
 2. **Phase de Merge sur `main` (Déploiement) :** Exécutée une fois la PR approuvée par les pairs. Elle applique les changements avec verrouillage d'état.
 
@@ -41,6 +42,7 @@ flowchart TD
 Traditionnellement, les équipes stockaient des identifiants statiques (`AWS_ACCESS_KEY_ID` et `AWS_SECRET_ACCESS_KEY`) dans les "Secrets" du dépôt GitHub. **Cette méthode est aujourd'hui considérée comme une mauvaise pratique de sécurité** (risque de fuite, pas de rotation automatique).
 
 Le standard moderne est **AWS OIDC avec GitHub Actions** :
+
 1. Le runner GitHub Actions demande un jeton cryptographique JWT signé à GitHub.
 2. Le runner présente ce jeton au service **AWS STS** via l'API `AssumeRoleWithWebIdentity`.
 3. AWS vérifie la signature de GitHub et la branche du dépôt (`repo:mon-org/mon-repo:ref:refs/heads/main`).
@@ -237,6 +239,7 @@ Pour éviter l'accumulation d'écarts invisibles, les équipes DevOps mettent en
 # Dans le pipeline cron de nuit :
 terraform plan -detailed-exitcode -no-color
 ```
+
 * Si le code de sortie est **`2`** : Une dérive a été détectée ! Le pipeline envoie une notification sur Slack ou ouvre automatiquement un ticket d'incident dans Jira pour réconciliation.
 
 ---
