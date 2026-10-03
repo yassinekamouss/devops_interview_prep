@@ -3788,12 +3788,14 @@
     style PrivDBB fill:#fff3e0,stroke:#ff9800</code></pre>
 <div class="admonition info">
 <p class="admonition-title">La Règle des 5 Adresses IP Réservées par AWS dans chaque Subnet</p>
-<p>Dans n'importe quel sous-réseau AWS (par exemple <code>10.0.1.0/24</code>, soit 256 adresses théoriques), vous ne disposez que de <strong>251 adresses utilisables</strong>. AWS réserve toujours 5 adresses :
-1. <code>.0</code> : Adresse réseau.
-2. <code>.1</code> : Routeur virtuel VPC.
-3. <code>.2</code> : Serveur DNS d'Amazon (Amazon Provided DNS / Route 53 Resolver).
-4. <code>.3</code> : Réservé par AWS pour un usage futur.
-5. <code>.255</code> : Adresse de diffusion réseau (Broadcast).</p>
+<p>Dans n'importe quel sous-réseau AWS (par exemple <code>10.0.1.0/24</code>, soit 256 adresses théoriques), vous ne disposez que de <strong>251 adresses utilisables</strong>. AWS réserve toujours 5 adresses :</p>
+<ol>
+<li><code>.0</code> : Adresse réseau.</li>
+<li><code>.1</code> : Routeur virtuel VPC.</li>
+<li><code>.2</code> : Serveur DNS d'Amazon (Amazon Provided DNS / Route 53 Resolver).</li>
+<li><code>.3</code> : Réservé par AWS pour un usage futur.</li>
+<li><code>.255</code> : Adresse de diffusion réseau (Broadcast).</li>
+</ol>
 </div>
 <hr />
 <h2 id="2-implementation-terraform-complete-en-hcl">2. Implémentation Terraform Complète en HCL<a class="headerlink" href="#2-implementation-terraform-complete-en-hcl" title="Permanent link">&para;</a></h2>

@@ -3906,10 +3906,12 @@
 </span></code></pre></div>
 <hr />
 <h2 id="4-les-sorties-outputs">4. Les Sorties (<code>outputs</code>)<a class="headerlink" href="#4-les-sorties-outputs" title="Permanent link">&para;</a></h2>
-<p>Les <strong>Outputs</strong> remplissent trois missions critiques :
-1. <strong>Afficher des informations utiles</strong> à la fin du déploiement (ex: l'URL publique de l'Application Load Balancer ou l'ID du cluster EKS).
-2. <strong>Exposer des données d'un Child Module</strong> vers le Root Module.
-3. <strong>Partager des données entre projets distincts</strong> via <code>data "terraform_remote_state"</code>.</p>
+<p>Les <strong>Outputs</strong> remplissent trois missions critiques :</p>
+<ol>
+<li><strong>Afficher des informations utiles</strong> à la fin du déploiement (ex: l'URL publique de l'Application Load Balancer ou l'ID du cluster EKS).</li>
+<li><strong>Exposer des données d'un Child Module</strong> vers le Root Module.</li>
+<li><strong>Partager des données entre projets distincts</strong> via <code>data "terraform_remote_state"</code>.</li>
+</ol>
 <div class="language-hcl highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kr">output</span><span class="w"> </span><span class="nv">"vpc_id"</span><span class="w"> </span><span class="p">{</span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">  </span><span class="na">description</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"Identifiant unique du VPC créé"</span>
 </span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">  </span><span class="na">value</span><span class="w">       </span><span class="o">=</span><span class="w"> </span><span class="nv">aws_vpc.main.id</span>

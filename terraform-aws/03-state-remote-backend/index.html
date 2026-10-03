@@ -3988,18 +3988,22 @@
 </span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>  Who:       runner@github-actions-01
 </span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>  Created:   2026-09-23 16:30:00 UTC
 </span></code></pre></div>
-<p><strong>Procédure de déblocage chirurgicale :</strong>
-1. <strong>Vérification humaine :</strong> S'assurer qu'aucun autre pipeline ni collègue n'est effectivement en cours de déploiement sur ce composant.
-2. <strong>Déverrouillage d'urgence :</strong>
+<p><strong>Procédure de déblocage chirurgicale :</strong></p>
+<ol>
+<li><strong>Vérification humaine :</strong> S'assurer qu'aucun autre pipeline ni collègue n'est effectivement en cours de déploiement sur ce composant.</li>
+<li><strong>Déverrouillage d'urgence :</strong>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>terraform<span class="w"> </span>force-unlock<span class="w"> </span>b1a2c3d4-5678-90ab-cdef-1234567890ab
-</span></code></pre></div></p>
+</span></code></pre></div></li>
+</ol>
 <h3 id="reduire-le-rayon-dimpact-blast-radius-lisolation-des-states">Réduire le Rayon d'Impact (Blast Radius) : L'Isolation des States<a class="headerlink" href="#reduire-le-rayon-dimpact-blast-radius-lisolation-des-states" title="Permanent link">&para;</a></h3>
 <div class="admonition warning">
 <p class="admonition-title">Anti-pattern : Le State Monolithique</p>
-<p>Mettre l'ensemble du Cloud (VPC + EKS + RDS + IAM) dans <strong>un seul et unique fichier State</strong> est une erreur architecturale grave :
-- Un <code>plan</code> prend des dizaines de minutes.
-- Une erreur d'inattention sur un tag peut casser la base de production.
-- Le risque de blocage par verrou paralyse toute l'équipe technique.</p>
+<p>Mettre l'ensemble du Cloud (VPC + EKS + RDS + IAM) dans <strong>un seul et unique fichier State</strong> est une erreur architecturale grave :</p>
+<ul>
+<li>Un <code>plan</code> prend des dizaines de minutes.</li>
+<li>Une erreur d'inattention sur un tag peut casser la base de production.</li>
+<li>Le risque de blocage par verrou paralyse toute l'équipe technique.</li>
+</ul>
 </div>
 <p><strong>La Bonne Pratique : Découper en couches indépendantes (Micro-States)</strong>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>s3://mon-entreprise-terraform-state-prod/

@@ -3825,9 +3825,11 @@
 <h3 id="a-le-principe-du-moindre-privilege-principle-of-least-privilege-polp">A. Le Principe du Moindre Privilège (Principle of Least Privilege - PoLP)<a class="headerlink" href="#a-le-principe-du-moindre-privilege-principle-of-least-privilege-polp" title="Permanent link">&para;</a></h3>
 <p>Chaque identité (humain, pipeline CI/CD, conteneur Kubernetes) ne doit recevoir <strong>strictement que les permissions indispensables</strong> à l'accomplissement de sa tâche, pour la durée minimale nécessaire, et rien de plus. L'usage de wildcards (<code>Resource: "*"</code>, <code>Action: "*"</code>) en production est une faute éliminatoire en entretien.</p>
 <h3 id="b-mort-des-cles-permanentes-la-puissance-des-iam-roles">B. Mort des Clés Permanentes : La Puissance des IAM Roles<a class="headerlink" href="#b-mort-des-cles-permanentes-la-puissance-des-iam-roles" title="Permanent link">&para;</a></h3>
-<p>En entreprise moderne :
-* <strong>IAM User + Access Keys statiques (<code>AKIA...</code>) :</strong> <strong>Banni.</strong> Les clés statiques finissent inévitablement par fuiter dans un commit Git public ou un log CI/CD.
-* <strong>IAM Role + STS (Security Token Service) :</strong> <strong>Standard absolu.</strong> Un rôle ne possède aucun mot de passe ni clé permanente. AWS STS génère des identifiants temporaires cryptographiques valides de quelques minutes à quelques heures.</p>
+<p>En entreprise moderne :</p>
+<ul>
+<li><strong>IAM User + Access Keys statiques (<code>AKIA...</code>) :</strong> <strong>Banni.</strong> Les clés statiques finissent inévitablement par fuiter dans un commit Git public ou un log CI/CD.</li>
+<li><strong>IAM Role + STS (Security Token Service) :</strong> <strong>Standard absolu.</strong> Un rôle ne possède aucun mot de passe ni clé permanente. AWS STS génère des identifiants temporaires cryptographiques valides de quelques minutes à quelques heures.</li>
+</ul>
 <pre class="mermaid"><code>sequenceDiagram
     autonumber
     participant App as Application (sur EC2 ou EKS)
@@ -3867,10 +3869,12 @@
 <h2 id="3-implementation-terraform-hcl-propre">3. Implémentation Terraform HCL Propre<a class="headerlink" href="#3-implementation-terraform-hcl-propre" title="Permanent link">&para;</a></h2>
 <div class="admonition tip">
 <p class="admonition-title">Pourquoi préférer <code>data.aws_iam_policy_document</code> à <code>jsonencode</code> ?</p>
-<p>Bien qu'écrire du JSON brut avec <code>jsonencode</code> soit supporté, la bonne pratique professionnelle est d'utiliser la data source <strong><code>aws_iam_policy_document</code></strong> :
-- Vérification syntaxique par Terraform dès l'étape <code>plan</code>.
-- Pas de risque d'erreur de typage ou de virgule JSON mal placée.
-- Facilité de fusion de politiques multiples via l'argument <code>source_policy_documents</code>.</p>
+<p>Bien qu'écrire du JSON brut avec <code>jsonencode</code> soit supporté, la bonne pratique professionnelle est d'utiliser la data source <strong><code>aws_iam_policy_document</code></strong> :</p>
+<ul>
+<li>Vérification syntaxique par Terraform dès l'étape <code>plan</code>.</li>
+<li>Pas de risque d'erreur de typage ou de virgule JSON mal placée.</li>
+<li>Facilité de fusion de politiques multiples via l'argument <code>source_policy_documents</code>.</li>
+</ul>
 </div>
 <h3 id="exemple-donner-a-une-instance-ec2-lacces-en-lecture-a-un-bucket-s3">Exemple : Donner à une instance EC2 l'accès en lecture à un Bucket S3<a class="headerlink" href="#exemple-donner-a-une-instance-ec2-lacces-en-lecture-a-un-bucket-s3" title="Permanent link">&para;</a></h3>
 <div class="language-hcl highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># 1. Définition de la Trust Policy (Autorise le service EC2 à assumer le rôle)</span>
@@ -3938,9 +3942,11 @@
 </span></code></pre></div>
 <hr />
 <h2 id="4-deep-dive-eks-irsa-iam-roles-for-service-accounts">4. Deep Dive EKS : IRSA (IAM Roles for Service Accounts)<a class="headerlink" href="#4-deep-dive-eks-irsa-iam-roles-for-service-accounts" title="Permanent link">&para;</a></h2>
-<p>Dans un cluster Kubernetes (Amazon EKS), une problématique de sécurité majeure se pose :
-* <strong>Le problème :</strong> Si vous attachez un rôle IAM au nœud EC2 (Worker Node), <strong>TOUS les Pods</strong> hébergés sur cette machine héritent des mêmes permissions Cloud ! Si un conteneur non privilégié est compromis, l'attaquant a accès à votre base de données ou à votre bucket S3.
-* <strong>La solution :</strong> <strong>IRSA (IAM Roles for Service Accounts)</strong>. IRSA associe un Rôle IAM directement à un <code>ServiceAccount</code> Kubernetes via le protocole <strong>OIDC (OpenID Connect)</strong>.</p>
+<p>Dans un cluster Kubernetes (Amazon EKS), une problématique de sécurité majeure se pose :</p>
+<ul>
+<li><strong>Le problème :</strong> Si vous attachez un rôle IAM au nœud EC2 (Worker Node), <strong>TOUS les Pods</strong> hébergés sur cette machine héritent des mêmes permissions Cloud ! Si un conteneur non privilégié est compromis, l'attaquant a accès à votre base de données ou à votre bucket S3.</li>
+<li><strong>La solution :</strong> <strong>IRSA (IAM Roles for Service Accounts)</strong>. IRSA associe un Rôle IAM directement à un <code>ServiceAccount</code> Kubernetes via le protocole <strong>OIDC (OpenID Connect)</strong>.</li>
+</ul>
 <pre class="mermaid"><code>flowchart LR
     Pod["Pod Kubernetes&lt;br/&gt;(Namespace: default)"] --&gt; SA["ServiceAccount K8s&lt;br/&gt;(Annotations: eks.amazonaws.com/role-arn)"]
     SA --&gt; OIDC["EKS OIDC Provider"]

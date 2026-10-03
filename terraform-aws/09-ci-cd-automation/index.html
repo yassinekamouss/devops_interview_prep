@@ -3776,9 +3776,11 @@
 <p>En environnement d'entreprise, exécuter <code>terraform apply</code> depuis son ordinateur portable est une pratique strictement interdite : cela pose des problèmes majeurs de sécurité (clés d'accès en local), de traçabilité et de risques d'écrasement. Toute modification de l'infrastructure doit obligatoirement passer par un pipeline d'Intégration et de Déploiement Continus (<strong>CI/CD</strong>).</p>
 <hr />
 <h2 id="1-le-workflow-iac-en-entreprise">1. Le Workflow IaC en Entreprise<a class="headerlink" href="#1-le-workflow-iac-en-entreprise" title="Permanent link">&para;</a></h2>
-<p>Le pipeline d'automatisation d'infrastructure sépare le cycle en deux phases distinctes :
-1. <strong>Phase de Pull Request (Validation) :</strong> Exécutée à chaque commit sur une branche de feature. Elle teste le code et affiche ce qui va changer sans rien modifier sur AWS.
-2. <strong>Phase de Merge sur <code>main</code> (Déploiement) :</strong> Exécutée une fois la PR approuvée par les pairs. Elle applique les changements avec verrouillage d'état.</p>
+<p>Le pipeline d'automatisation d'infrastructure sépare le cycle en deux phases distinctes :</p>
+<ol>
+<li><strong>Phase de Pull Request (Validation) :</strong> Exécutée à chaque commit sur une branche de feature. Elle teste le code et affiche ce qui va changer sans rien modifier sur AWS.</li>
+<li><strong>Phase de Merge sur <code>main</code> (Déploiement) :</strong> Exécutée une fois la PR approuvée par les pairs. Elle applique les changements avec verrouillage d'état.</li>
+</ol>
 <pre class="mermaid"><code>flowchart TD
     subgraph DevSpace ["Espace Développeur"]
         Dev["Ingénieur DevOps"] --&gt;|git push origin feature| Git["GitHub / GitLab"]
@@ -3803,11 +3805,13 @@
 <hr />
 <h2 id="2-authentification-zero-secret-aws-oidc-openid-connect">2. Authentification Zéro-Secret AWS : OIDC (OpenID Connect)<a class="headerlink" href="#2-authentification-zero-secret-aws-oidc-openid-connect" title="Permanent link">&para;</a></h2>
 <p>Traditionnellement, les équipes stockaient des identifiants statiques (<code>AWS_ACCESS_KEY_ID</code> et <code>AWS_SECRET_ACCESS_KEY</code>) dans les "Secrets" du dépôt GitHub. <strong>Cette méthode est aujourd'hui considérée comme une mauvaise pratique de sécurité</strong> (risque de fuite, pas de rotation automatique).</p>
-<p>Le standard moderne est <strong>AWS OIDC avec GitHub Actions</strong> :
-1. Le runner GitHub Actions demande un jeton cryptographique JWT signé à GitHub.
-2. Le runner présente ce jeton au service <strong>AWS STS</strong> via l'API <code>AssumeRoleWithWebIdentity</code>.
-3. AWS vérifie la signature de GitHub et la branche du dépôt (<code>repo:mon-org/mon-repo:ref:refs/heads/main</code>).
-4. STS renvoie un jeton temporaire valable 15 minutes. <strong>Zéro clé statique stockée.</strong></p>
+<p>Le standard moderne est <strong>AWS OIDC avec GitHub Actions</strong> :</p>
+<ol>
+<li>Le runner GitHub Actions demande un jeton cryptographique JWT signé à GitHub.</li>
+<li>Le runner présente ce jeton au service <strong>AWS STS</strong> via l'API <code>AssumeRoleWithWebIdentity</code>.</li>
+<li>AWS vérifie la signature de GitHub et la branche du dépôt (<code>repo:mon-org/mon-repo:ref:refs/heads/main</code>).</li>
+<li>STS renvoie un jeton temporaire valable 15 minutes. <strong>Zéro clé statique stockée.</strong></li>
+</ol>
 <pre class="mermaid"><code>sequenceDiagram
     autonumber
     participant GHA as Runner GitHub Actions
@@ -4006,10 +4010,12 @@
 <h2 id="5-detection-de-derive-drift-detection">5. Détection de Dérive (Drift Detection)<a class="headerlink" href="#5-detection-de-derive-drift-detection" title="Permanent link">&para;</a></h2>
 <p>Que se passe-t-il si un administrateur modifie une règle de pare-feu directement sur la console AWS sans passer par Git ?
 Pour éviter l'accumulation d'écarts invisibles, les équipes DevOps mettent en place un <strong>Cron de Détection de Dérive</strong> quotidien (la nuit) :</p>
-<p><div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1"># Dans le pipeline cron de nuit :</span>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1"># Dans le pipeline cron de nuit :</span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>terraform<span class="w"> </span>plan<span class="w"> </span>-detailed-exitcode<span class="w"> </span>-no-color
 </span></code></pre></div>
-* Si le code de sortie est <strong><code>2</code></strong> : Une dérive a été détectée ! Le pipeline envoie une notification sur Slack ou ouvre automatiquement un ticket d'incident dans Jira pour réconciliation.</p>
+<ul>
+<li>Si le code de sortie est <strong><code>2</code></strong> : Une dérive a été détectée ! Le pipeline envoie une notification sur Slack ou ouvre automatiquement un ticket d'incident dans Jira pour réconciliation.</li>
+</ul>
 <hr />
 <h2 id="6-terraform-push-vs-argocd-pull-la-nuance-indispensable">6. Terraform (Push) vs ArgoCD (Pull) : La Nuance Indispensable<a class="headerlink" href="#6-terraform-push-vs-argocd-pull-la-nuance-indispensable" title="Permanent link">&para;</a></h2>
 <p>Une question classique en entretien DevOps / GitOps : <em>"Si vous utilisez ArgoCD, avez-vous encore besoin de Terraform ?"</em></p>
