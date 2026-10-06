@@ -7,6 +7,9 @@
 [![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)](https://argoproj.github.io/cd/)
 [![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/features/actions)
+[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)](https://prometheus.io/)
+[![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com/)
+[![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white)](https://opentelemetry.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
 > **Base de connaissances exhaustive, fiches d'architecture de production et cheatsheets techniques conçues pour préparer et réussir les entretiens techniques DevOps, SRE, Platform et Cloud Infrastructure (Oracle, GAFAM, Scale-ups et Cloud Providers).**
@@ -25,6 +28,7 @@
   - [5. 🔄 CI/CD & DevSecOps](#5--cicd--devsecops)
   - [6. 🌿 Git Internals & Workflows Avancés](#6--git-internals--workflows-avancés)
   - [7. 🧩 Algorithmique & Patterns LeetCode pour SRE/DevOps](#7--algorithmique--patterns-leetcode-pour-sredevops)
+  - [8. 📊 Observabilité & Monitoring (Prometheus, Grafana, OpenTelemetry)](#8--observabilité--monitoring-prometheus-grafana-opentelemetry)
 - [💻 Démarrage rapide (Local)](#-démarrage-rapide-local)
 - [🌐 Déploiement sur GitHub Pages](#-déploiement-sur-github-pages)
 - [🧠 Stratégie de préparation recommandée (Roadmap 4 semaines)](#-stratégie-de-préparation-recommandée-roadmap-4-semaines)
@@ -67,6 +71,7 @@ graph LR
     DevOps --> IaC[Terraform & AWS]
     DevOps --> Pipe[CI/CD & DevSecOps]
     DevOps --> VCS[Git Internals]
+    DevOps --> Obs[Observabilité & SRE]
     DevOps --> Algo[LeetCode & Patterns]
 ```
 
@@ -133,6 +138,20 @@ graph LR
   - *Tri topologique* : Indispensable pour la résolution de graphes de dépendances de packages ou d'infrastructures.
   - *Optimisation & Complexité* : Heaps & Priority Queues, Intervals (plages IP / créneaux), Backtracking, Greedy et Dynamic Programming.
 - **Cheatsheet d'entretien** : Tableaux récapitulatifs des complexités temporelles ($O(1)$, $O(\log n)$, $O(n)$, $O(n \log n)$) et spatiales.
+
+### 8. 📊 Observabilité & Monitoring (Prometheus, Grafana, OpenTelemetry)
+*De la télémétrie bas niveau à la gestion d'incidents critiques en production.*
+- **Fondamentaux & Théorie SRE** : Modèle M.E.L.T (Metrics, Events, Logs, Traces), 4 Golden Signals (Latence, Trafic, Erreurs, Saturation), calcul des SLI / SLO / SLA et gestion de l'Error Budget.
+- **Méthodes d'Analyse (USE vs RED)** : Framework USE (Utilization, Saturation, Errors) pour l'infrastructure et nœuds vs RED (Rate, Errors, Duration) pour les microservices applicatifs.
+- **Prometheus & Architecture TSDB** : Modèle Pull vs Push, Time-Series Database, Service Discovery (K8s API, DNS), compression Gorilla et rétention des données.
+- **Métriques & Instrumentation** : Maîtrise des 4 types fondamentaux (Counter, Gauge, Histogram, Summary), gestion des buckets et piège de la haute cardinalité.
+- **Requêtage Avancé PromQL** : Calculs instantanés et range vectors, `rate()` vs `irate()`, calcul de percentiles de latence avec `histogram_quantile()`, agrégations multi-labels et alertes prédictives.
+- **Alertmanager & Triage de crise** : Grouping, Deduplication, Inhibition rules (éviter les tempêtes d'alertes en cascade), Silences et intégrations multi-canaux (PagerDuty, Slack, Webhooks).
+- **Grafana & Dashboards Opérationnels** : Bonnes pratiques d'UX dashboarding, variables dynamiques par tags/namespaces, requêtes optimisées et Alerting Unifié Grafana.
+- **Traces Distribuées & OpenTelemetry (OTel)** : Standard OpenTelemetry, architecture de l'OTel Collector (Receivers, Processors, Exporters), traces distribuées, context propagation W3C (`traceparent`), corrélation Traces-Logs-Métriques.
+- **AWS CloudWatch & Observabilité Cloud Native** : CloudWatch Metrics, CloudWatch Logs Insights (requêtage structuré JSON), Container Insights pour EKS et alarmes composites.
+- **Diagnostics Kubernetes en Direct & Troubleshooting Prod** : Identification et résolution de `CrashLoopBackOff`, `OOMKilled` (Exit Code 137), CPU Throttling (`container_cpu_cfs_throttled_periods_total`), détection des erreurs 502/503/504 et latences P95/P99.
+- **Cheatsheet Entretien & Scénarios Incident Response** : Questions pièges éliminatoires et simulation de gestion d'incidents de production en direct.
 
 ---
 
@@ -223,7 +242,7 @@ jobs:
 | **Semaine 1** | **Linux, Git & Docker** | Maîtriser le noyau Linux (cgroups, namespaces), le plumbing Git (DAG, reflog, rebase) et l'optimisation des conteneurs en production. |
 | **Semaine 2** | **Kubernetes Deep Dive** | Savoir dessiner l'architecture K8s de tête, expliquer chaque composant du Control Plane, le CNI et résoudre les pannes courantes (`CrashLoopBackOff`, `OOMKilled`). |
 | **Semaine 3** | **IaC & GitOps (Terraform, AWS, ArgoCD)** | Être capable de concevoir une architecture VPC AWS sécurisée avec Terraform (State, S3, DynamoDB) et déployer en GitOps avec ArgoCD et Argo Rollouts. |
-| **Semaine 4** | **CI/CD, DevSecOps & Coding Interview** | Maîtriser les pipelines (GitHub Actions, SonarQube, Trivy), réviser les DORA metrics et s'entraîner sur les patterns LeetCode clés (Graphes, Sliding Window, Two Pointers). |
+| **Semaine 4** | **Observabilité (SRE), CI/CD & Coding** | Maîtriser la stack d'observabilité (Prometheus, PromQL, Grafana, OpenTelemetry, Alertmanager), les pipelines DevSecOps et s'entraîner sur les patterns LeetCode clés. |
 
 ### 💡 3 conseils essentiels pour le jour J :
 1. **Pensez à voix haute (Think out loud)** : Les intervieweurs évaluent votre raisonnement, la prise en compte des cas limites et la sécurité autant que la solution finale.
