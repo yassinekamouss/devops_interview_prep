@@ -132,6 +132,7 @@ terraform graph | dot -Tsvg > dependency_graph.svg
 
 !!! question "15. En quoi consiste le 'Blast Radius' et comment le minimiser avec Terraform sur AWS ?"
     Le Blast Radius (rayon d'impact) désigne l'étendue des dégâts potentiels en cas d'erreur de manipulation ou de corruption du State. Pour le minimiser :
+    
     - On découpe l'infrastructure en plusieurs projets/states étanches (couche réseau, couche Kubernetes, couche base de données).
     - On applique le principe du moindre privilège sur les rôles IAM de la CI/CD (le rôle de déploiement d'une application ne doit pas avoir le droit de modifier le VPC).
     - On utilise des comptes AWS séparés pour chaque environnement (Dev, Staging, Prod).

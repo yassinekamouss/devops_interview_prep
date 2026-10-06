@@ -4,6 +4,10 @@ site_url: https://yassinekamouss.github.io/devops_interview_prep/
 repo_url: https://github.com/yassinekamouss/devops_interview_prep
 repo_name: yassinekamouss/devops_interview_prep
 
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
 theme:
   name: material
   language: en
@@ -75,6 +79,8 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+  - pymdownx.arithmatex:
+      generic: true
 
 nav:
   - Home: index.md
@@ -178,3 +184,18 @@ nav:
       - 08 Provisionnement Cloud (EKS, EC2, S3, RDS): terraform-aws/08-provisionnement-infra.md
       - 09 Automatisation (Terraform via CI/CD): terraform-aws/09-ci-cd-automation.md
       - 10 Cheatsheet Entretien: terraform-aws/10-cheatsheet-entretien.md
+
+  - Observabilité & Monitoring:
+        - Vue d'ensemble: observabilite/index.md
+        - 01 Fondamentaux (M.E.L.T, SLI/SLO/SLA, Golden Signals): observabilite/01-fondamentaux-theorie.md
+        - 02 Méthodes d'Analyse (USE & RED Frameworks): observabilite/02-methodes-use-red.md
+        - 03 Prometheus Architecture & Service Discovery: observabilite/03-prometheus-architecture.md
+        - 04 Métriques Prometheus (Counter, Gauge, Histogram, Summary): observabilite/04-prometheus-metriques.md
+        - 05 Requêtage Avancé PromQL (rate, histogram_quantile, vecteurs): observabilite/05-promql-mastery.md
+        - 06 Alertmanager (Alerting rules, Inhibition, Silences): observabilite/06-alertmanager.md
+        - 07 Dashboards Grafana & Alertes Unifiées: observabilite/07-grafana-dashboards.md
+        - 08 OpenTelemetry (OTel Collector, Traces, Spans, W3C): observabilite/08-opentelemetry.md
+        - 09 AWS Native Observability (CloudWatch Metrics, Logs Insights & Alarms): observabilite/09-aws-cloudwatch.md
+        - 10 Kubernetes Diagnostics (CrashLoopBackOff, OOMKilled, Throttling): observabilite/10-k8s-diagnostics.md
+        - 11 Triage de Production (Latence P95/P99, Codes 5xx, Network): observabilite/11-triage-incidents-prod.md
+        - 12 Cheatsheet Entretien & Scénarios Incident Response: observabilite/12-cheatsheet-entretien.md
