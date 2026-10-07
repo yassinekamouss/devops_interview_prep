@@ -12,6 +12,8 @@
 [![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white)](https://opentelemetry.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
+**Languages:** [🇫🇷 Français](https://yassinekamouss.github.io/devops_interview_prep/) · [🇬🇧 English](https://yassinekamouss.github.io/devops_interview_prep/en/) — *FR at `/` + `/fr/` alias, EN at `/en/` via `mkdocs-static-i18n` suffix `.en.md`*
+
 > **Base de connaissances exhaustive, fiches d'architecture de production et cheatsheets techniques conçues pour préparer et réussir les entretiens techniques DevOps, SRE, Platform et Cloud Infrastructure (Oracle, GAFAM, Scale-ups et Cloud Providers).**
 
 ---
