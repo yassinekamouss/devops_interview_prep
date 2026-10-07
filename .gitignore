@@ -13,6 +13,8 @@
 # Python scripts & execution artifacts
 # (Excludes scratch scripts like index.py while keeping requirements.txt)
 *.py
+!scripts/*.py
+!scripts/**/*.py
 index.py
 __pycache__/
 *.py[cod]
