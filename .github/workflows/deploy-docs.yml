@@ -35,5 +35,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Parity guard (code blocks must be identical)
+        run: python scripts/check_code_blocks_parity.py
+
+      - name: Build (strict)
+        run: mkdocs build --strict
+
+      - name: Create /fr/ alias (FR at / + /fr/ for strict /fr/+ /en/ URLs)
+        run: |
+          # mkdocs-static-i18n with suffix puts FR at site/ (root) and EN at site/en/
+          # Duplicate FR to site/fr/ so both / and /fr/ serve FR (user expects /fr/ + /en/)
+          if [ -d site ]; then
+            mkdir -p site/fr
+            cp -r site/* site/fr/ 2>/dev/null || true
+            # avoid infinite recursion: remove nested fr/fr if created
+            rm -rf site/fr/fr site/fr/en 2>/dev/null || true
+            echo "Created site/fr/ alias with $(ls site/fr | wc -l) entries"
+          fi
+
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
