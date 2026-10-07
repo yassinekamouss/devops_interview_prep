@@ -1,431 +1,1529 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/01-fondamentaux/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/01-fondamentaux/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/01-fondamentaux/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/01-fondamentaux/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/02-architecture-pipeline/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/02-architecture-pipeline/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/02-architecture-pipeline/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/02-architecture-pipeline/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/03-jenkins-github-actions/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/03-jenkins-github-actions/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/03-jenkins-github-actions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/03-jenkins-github-actions/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/04-qualite-devsecops/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/04-qualite-devsecops/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/04-qualite-devsecops/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/04-qualite-devsecops/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/05-strategies-deploiement/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/05-strategies-deploiement/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/05-strategies-deploiement/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/05-strategies-deploiement/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/06-artefacts-secrets/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/06-artefacts-secrets/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/06-artefacts-secrets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/06-artefacts-secrets/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/07-intro-gitops/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/07-intro-gitops/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/07-intro-gitops/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/07-intro-gitops/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/08-bonnes-pratiques/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/08-bonnes-pratiques/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/08-bonnes-pratiques/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/08-bonnes-pratiques/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/09-cheatsheet-entretien/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/09-cheatsheet-entretien/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/09-cheatsheet-entretien/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/09-cheatsheet-entretien/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/cicd/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/ci-cd/cicd/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/cicd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/cicd/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/01-introduction/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/01-introduction/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/01-introduction/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/01-introduction/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/02-architecture/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/02-architecture/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/02-architecture/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/02-architecture/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/03-installation/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/03-installation/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/03-installation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/03-installation/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/04-images/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/04-images/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/04-images/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/04-images/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/05-containers/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/05-containers/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/05-containers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/05-containers/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/06-dockerfile/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/06-dockerfile/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/06-dockerfile/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/06-dockerfile/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/07-networking/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/07-networking/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/07-networking/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/07-networking/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/08-volumes/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/08-volumes/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/08-volumes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/08-volumes/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/09-env-vars/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/09-env-vars/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/09-env-vars/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/09-env-vars/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/10-compose/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/10-compose/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/10-compose/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/10-compose/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/11-registries/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/11-registries/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/11-registries/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/11-registries/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/12-security/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/12-security/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/12-security/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/12-security/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/13-debugging/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/13-debugging/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/13-debugging/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/13-debugging/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/14-production/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/14-production/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/14-production/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/14-production/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/15-devops/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/15-devops/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/15-devops/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/15-devops/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/16-kubernetes/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/16-kubernetes/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/16-kubernetes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/16-kubernetes/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/17-interview-questions/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/17-interview-questions/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/17-interview-questions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/17-interview-questions/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/docker/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/docker/docker/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/docker/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/docker/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/git/01-fondamentaux-cycle/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/git/01-fondamentaux-cycle/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/01-fondamentaux-cycle/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/01-fondamentaux-cycle/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/git/02-commits-historique/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/git/02-commits-historique/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/02-commits-historique/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/02-commits-historique/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/git/03-branches-merge/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/git/03-branches-merge/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/03-branches-merge/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/03-branches-merge/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/git/04-conflits-rebase/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/git/04-conflits-rebase/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/04-conflits-rebase/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/04-conflits-rebase/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/git/05-reset-revert-amend/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/git/05-reset-revert-amend/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/05-reset-revert-amend/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/05-reset-revert-amend/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/git/06-stash/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/git/06-stash/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/06-stash/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/06-stash/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/git/07-workflow-bonnes-pratiques/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/git/07-workflow-bonnes-pratiques/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/07-workflow-bonnes-pratiques/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/07-workflow-bonnes-pratiques/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/git/08-cheatsheet-entretien/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/git/08-cheatsheet-entretien/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/08-cheatsheet-entretien/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/08-cheatsheet-entretien/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/git/git/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/git/git/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/git/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/git/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/01-fondamentaux-principes/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/01-fondamentaux-principes/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/01-fondamentaux-principes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/01-fondamentaux-principes/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/02-architecture-argocd/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/02-architecture-argocd/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/02-architecture-argocd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/02-architecture-argocd/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/03-manifestes-core/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/03-manifestes-core/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/03-manifestes-core/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/03-manifestes-core/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/04-applicationset-multi-cluster/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/04-applicationset-multi-cluster/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/04-applicationset-multi-cluster/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/04-applicationset-multi-cluster/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/05-synchronisation-hooks-waves/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/05-synchronisation-hooks-waves/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/05-synchronisation-hooks-waves/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/05-synchronisation-hooks-waves/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/06-gestion-secrets-gitops/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/06-gestion-secrets-gitops/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/06-gestion-secrets-gitops/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/06-gestion-secrets-gitops/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/07-deploiements-avances-argo-rollouts/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/07-deploiements-avances-argo-rollouts/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/07-deploiements-avances-argo-rollouts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/07-deploiements-avances-argo-rollouts/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/08-securite-rbac-multi-tenancy/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/08-securite-rbac-multi-tenancy/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/08-securite-rbac-multi-tenancy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/08-securite-rbac-multi-tenancy/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/09-troubleshooting-production/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/09-troubleshooting-production/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/09-troubleshooting-production/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/09-troubleshooting-production/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/10-cheatsheet-entretien/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/10-cheatsheet-entretien/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/10-cheatsheet-entretien/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/10-cheatsheet-entretien/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/gitops/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/gitops/gitops/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/gitops/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/gitops/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/01-workloads-lifecycle/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/01-workloads-lifecycle/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/01-workloads-lifecycle/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/01-workloads-lifecycle/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/02-networking-security/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/02-networking-security/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/02-networking-security/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/02-networking-security/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/03-stockage-configuration/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/03-stockage-configuration/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/03-stockage-configuration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/03-stockage-configuration/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/04-scheduling-scalability/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/04-scheduling-scalability/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/04-scheduling-scalability/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/04-scheduling-scalability/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/05-observability-troubleshooting/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/05-observability-troubleshooting/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/05-observability-troubleshooting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/05-observability-troubleshooting/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/06-gitops-helm-argocd/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/06-gitops-helm-argocd/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/06-gitops-helm-argocd/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/06-gitops-helm-argocd/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/07-cloud-production/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/07-cloud-production/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/07-cloud-production/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/07-cloud-production/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/08-cheatsheet-entretien/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/08-cheatsheet-entretien/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/08-cheatsheet-entretien/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/08-cheatsheet-entretien/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/kubernetes/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/kubernetes/kubernetes/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/kubernetes/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/kubernetes/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/01-hash-maps-sets/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/01-hash-maps-sets/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/01-hash-maps-sets/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/01-hash-maps-sets/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/02-two-pointers/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/02-two-pointers/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/02-two-pointers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/02-two-pointers/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/03-sliding-window/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/03-sliding-window/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/03-sliding-window/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/03-sliding-window/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/04-binary-search/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/04-binary-search/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/04-binary-search/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/04-binary-search/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/05-stack-monotonic-stack/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/05-stack-monotonic-stack/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/05-stack-monotonic-stack/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/05-stack-monotonic-stack/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/06-linked-lists/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/06-linked-lists/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/06-linked-lists/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/06-linked-lists/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/07-fast-slow-pointers/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/07-fast-slow-pointers/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/07-fast-slow-pointers/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/07-fast-slow-pointers/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/08-trees-dfs/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/08-trees-dfs/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/08-trees-dfs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/08-trees-dfs/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/09-bfs/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/09-bfs/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/09-bfs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/09-bfs/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/10-heaps/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/10-heaps/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/10-heaps/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/10-heaps/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/11-intervals/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/11-intervals/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/11-intervals/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/11-intervals/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/12-prefix-sum/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/12-prefix-sum/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/12-prefix-sum/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/12-prefix-sum/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/13-backtracking/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/13-backtracking/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/13-backtracking/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/13-backtracking/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/14-graphs/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/14-graphs/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/14-graphs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/14-graphs/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/15-topological-sort/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/15-topological-sort/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/15-topological-sort/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/15-topological-sort/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/16-union-find/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/16-union-find/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/16-union-find/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/16-union-find/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/17-greedy/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/17-greedy/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/17-greedy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/17-greedy/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/18-dynamic-programming/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/18-dynamic-programming/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/18-dynamic-programming/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/18-dynamic-programming/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/19-dijkstra/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/19-dijkstra/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/19-dijkstra/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/19-dijkstra/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/20-minimum-spanning-tree/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/20-minimum-spanning-tree/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/20-minimum-spanning-tree/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/20-minimum-spanning-tree/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/21-trie/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/21-trie/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/21-trie/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/21-trie/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/22-bit-manipulation/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/22-bit-manipulation/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/22-bit-manipulation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/22-bit-manipulation/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/23-pattern-combinations/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/23-pattern-combinations/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/23-pattern-combinations/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/23-pattern-combinations/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/24-cheatsheet-entretien/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/24-cheatsheet-entretien/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/24-cheatsheet-entretien/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/24-cheatsheet-entretien/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/leetcode/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/leetcode/leetcode/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/leetcode/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/leetcode/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/01-fondamentaux-theorie/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/01-fondamentaux-theorie/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/01-fondamentaux-theorie/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/01-fondamentaux-theorie/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/02-methodes-use-red/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/02-methodes-use-red/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/02-methodes-use-red/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/02-methodes-use-red/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/03-prometheus-architecture/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/03-prometheus-architecture/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/03-prometheus-architecture/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/03-prometheus-architecture/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/04-prometheus-metriques/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/04-prometheus-metriques/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/04-prometheus-metriques/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/04-prometheus-metriques/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/05-promql-mastery/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/05-promql-mastery/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/05-promql-mastery/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/05-promql-mastery/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/06-alertmanager/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/06-alertmanager/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/06-alertmanager/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/06-alertmanager/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/07-grafana-dashboards/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/07-grafana-dashboards/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/07-grafana-dashboards/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/07-grafana-dashboards/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/08-opentelemetry/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/08-opentelemetry/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/08-opentelemetry/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/08-opentelemetry/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/09-aws-cloudwatch/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/09-aws-cloudwatch/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/09-aws-cloudwatch/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/09-aws-cloudwatch/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/10-k8s-diagnostics/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/10-k8s-diagnostics/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/10-k8s-diagnostics/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/10-k8s-diagnostics/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/11-triage-incidents-prod/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/11-triage-incidents-prod/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/11-triage-incidents-prod/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/11-triage-incidents-prod/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/12-cheatsheet-entretien/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/observabilite/12-cheatsheet-entretien/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/12-cheatsheet-entretien/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/12-cheatsheet-entretien/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/01-fondamentaux-hcl/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/superpowers/plans/2026-10-07-bilingual-docs-en/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/superpowers/plans/2026-10-07-bilingual-docs-en/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/superpowers/plans/2026-10-07-bilingual-docs-en/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/02-commandes-cycle-vie/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/superpowers/specs/2026-10-07-bilingual-docs-design/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/superpowers/specs/2026-10-07-bilingual-docs-design/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/superpowers/specs/2026-10-07-bilingual-docs-design/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/03-state-remote-backend/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/01-fondamentaux-hcl/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/01-fondamentaux-hcl/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/01-fondamentaux-hcl/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/04-variables-locals-outputs/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/02-commandes-cycle-vie/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/02-commandes-cycle-vie/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/02-commandes-cycle-vie/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/05-modules/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/03-state-remote-backend/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/03-state-remote-backend/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/03-state-remote-backend/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/06-aws-networking/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/04-variables-locals-outputs/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/04-variables-locals-outputs/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/04-variables-locals-outputs/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/07-aws-iam/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/05-modules/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/05-modules/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/05-modules/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/08-provisionnement-infra/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/06-aws-networking/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/06-aws-networking/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/06-aws-networking/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/09-ci-cd-automation/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/07-aws-iam/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/07-aws-iam/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/07-aws-iam/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/10-cheatsheet-entretien/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/08-provisionnement-infra/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/08-provisionnement-infra/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/08-provisionnement-infra/"/>
     </url>
     <url>
-         <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/terraform-aws/</loc>
-         <lastmod>2026-10-06</lastmod>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/09-ci-cd-automation/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/09-ci-cd-automation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/09-ci-cd-automation/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/10-cheatsheet-entretien/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/10-cheatsheet-entretien/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/10-cheatsheet-entretien/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/terraform-aws/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/terraform-aws/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/terraform-aws/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/01-fondamentaux/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/01-fondamentaux/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/01-fondamentaux/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/02-architecture-pipeline/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/02-architecture-pipeline/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/02-architecture-pipeline/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/03-jenkins-github-actions/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/03-jenkins-github-actions/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/03-jenkins-github-actions/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/04-qualite-devsecops/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/04-qualite-devsecops/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/04-qualite-devsecops/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/05-strategies-deploiement/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/05-strategies-deploiement/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/05-strategies-deploiement/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/06-artefacts-secrets/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/06-artefacts-secrets/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/06-artefacts-secrets/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/07-intro-gitops/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/07-intro-gitops/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/07-intro-gitops/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/08-bonnes-pratiques/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/08-bonnes-pratiques/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/08-bonnes-pratiques/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/09-cheatsheet-entretien/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/09-cheatsheet-entretien/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/09-cheatsheet-entretien/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/cicd/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/ci-cd/cicd/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/ci-cd/cicd/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/01-introduction/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/01-introduction/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/01-introduction/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/02-architecture/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/02-architecture/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/02-architecture/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/03-installation/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/03-installation/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/03-installation/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/04-images/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/04-images/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/04-images/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/05-containers/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/05-containers/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/05-containers/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/06-dockerfile/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/06-dockerfile/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/06-dockerfile/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/07-networking/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/07-networking/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/07-networking/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/08-volumes/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/08-volumes/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/08-volumes/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/09-env-vars/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/09-env-vars/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/09-env-vars/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/10-compose/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/10-compose/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/10-compose/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/11-registries/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/11-registries/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/11-registries/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/12-security/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/12-security/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/12-security/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/13-debugging/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/13-debugging/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/13-debugging/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/14-production/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/14-production/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/14-production/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/15-devops/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/15-devops/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/15-devops/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/16-kubernetes/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/16-kubernetes/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/16-kubernetes/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/17-interview-questions/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/17-interview-questions/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/17-interview-questions/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/docker/docker/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/docker/docker/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/docker/docker/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/git/01-fondamentaux-cycle/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/01-fondamentaux-cycle/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/01-fondamentaux-cycle/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/git/02-commits-historique/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/02-commits-historique/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/02-commits-historique/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/git/03-branches-merge/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/03-branches-merge/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/03-branches-merge/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/git/04-conflits-rebase/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/04-conflits-rebase/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/04-conflits-rebase/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/git/05-reset-revert-amend/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/05-reset-revert-amend/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/05-reset-revert-amend/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/git/06-stash/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/06-stash/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/06-stash/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/git/07-workflow-bonnes-pratiques/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/07-workflow-bonnes-pratiques/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/07-workflow-bonnes-pratiques/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/git/08-cheatsheet-entretien/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/08-cheatsheet-entretien/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/08-cheatsheet-entretien/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/git/git/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/git/git/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/git/git/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/gitops/01-fondamentaux-principes/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/01-fondamentaux-principes/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/01-fondamentaux-principes/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/gitops/02-architecture-argocd/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/02-architecture-argocd/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/02-architecture-argocd/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/gitops/03-manifestes-core/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/03-manifestes-core/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/03-manifestes-core/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/gitops/04-applicationset-multi-cluster/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/04-applicationset-multi-cluster/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/04-applicationset-multi-cluster/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/gitops/05-synchronisation-hooks-waves/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/05-synchronisation-hooks-waves/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/05-synchronisation-hooks-waves/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/gitops/06-gestion-secrets-gitops/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/06-gestion-secrets-gitops/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/06-gestion-secrets-gitops/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/gitops/07-deploiements-avances-argo-rollouts/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/07-deploiements-avances-argo-rollouts/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/07-deploiements-avances-argo-rollouts/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/gitops/08-securite-rbac-multi-tenancy/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/08-securite-rbac-multi-tenancy/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/08-securite-rbac-multi-tenancy/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/gitops/09-troubleshooting-production/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/09-troubleshooting-production/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/09-troubleshooting-production/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/gitops/10-cheatsheet-entretien/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/10-cheatsheet-entretien/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/10-cheatsheet-entretien/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/gitops/gitops/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/gitops/gitops/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/gitops/gitops/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/01-workloads-lifecycle/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/01-workloads-lifecycle/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/01-workloads-lifecycle/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/02-networking-security/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/02-networking-security/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/02-networking-security/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/03-stockage-configuration/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/03-stockage-configuration/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/03-stockage-configuration/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/04-scheduling-scalability/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/04-scheduling-scalability/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/04-scheduling-scalability/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/05-observability-troubleshooting/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/05-observability-troubleshooting/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/05-observability-troubleshooting/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/06-gitops-helm-argocd/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/06-gitops-helm-argocd/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/06-gitops-helm-argocd/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/07-cloud-production/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/07-cloud-production/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/07-cloud-production/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/08-cheatsheet-entretien/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/08-cheatsheet-entretien/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/08-cheatsheet-entretien/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/kubernetes/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/kubernetes/kubernetes/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/kubernetes/kubernetes/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/01-hash-maps-sets/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/01-hash-maps-sets/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/01-hash-maps-sets/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/02-two-pointers/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/02-two-pointers/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/02-two-pointers/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/03-sliding-window/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/03-sliding-window/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/03-sliding-window/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/04-binary-search/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/04-binary-search/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/04-binary-search/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/05-stack-monotonic-stack/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/05-stack-monotonic-stack/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/05-stack-monotonic-stack/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/06-linked-lists/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/06-linked-lists/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/06-linked-lists/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/07-fast-slow-pointers/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/07-fast-slow-pointers/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/07-fast-slow-pointers/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/08-trees-dfs/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/08-trees-dfs/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/08-trees-dfs/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/09-bfs/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/09-bfs/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/09-bfs/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/10-heaps/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/10-heaps/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/10-heaps/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/11-intervals/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/11-intervals/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/11-intervals/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/12-prefix-sum/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/12-prefix-sum/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/12-prefix-sum/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/13-backtracking/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/13-backtracking/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/13-backtracking/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/14-graphs/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/14-graphs/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/14-graphs/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/15-topological-sort/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/15-topological-sort/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/15-topological-sort/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/16-union-find/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/16-union-find/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/16-union-find/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/17-greedy/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/17-greedy/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/17-greedy/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/18-dynamic-programming/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/18-dynamic-programming/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/18-dynamic-programming/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/19-dijkstra/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/19-dijkstra/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/19-dijkstra/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/20-minimum-spanning-tree/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/20-minimum-spanning-tree/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/20-minimum-spanning-tree/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/21-trie/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/21-trie/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/21-trie/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/22-bit-manipulation/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/22-bit-manipulation/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/22-bit-manipulation/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/23-pattern-combinations/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/23-pattern-combinations/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/23-pattern-combinations/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/24-cheatsheet-entretien/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/24-cheatsheet-entretien/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/24-cheatsheet-entretien/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/leetcode/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/leetcode/leetcode/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/leetcode/leetcode/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/01-fondamentaux-theorie/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/01-fondamentaux-theorie/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/01-fondamentaux-theorie/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/02-methodes-use-red/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/02-methodes-use-red/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/02-methodes-use-red/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/03-prometheus-architecture/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/03-prometheus-architecture/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/03-prometheus-architecture/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/04-prometheus-metriques/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/04-prometheus-metriques/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/04-prometheus-metriques/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/05-promql-mastery/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/05-promql-mastery/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/05-promql-mastery/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/06-alertmanager/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/06-alertmanager/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/06-alertmanager/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/07-grafana-dashboards/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/07-grafana-dashboards/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/07-grafana-dashboards/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/08-opentelemetry/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/08-opentelemetry/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/08-opentelemetry/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/09-aws-cloudwatch/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/09-aws-cloudwatch/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/09-aws-cloudwatch/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/10-k8s-diagnostics/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/10-k8s-diagnostics/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/10-k8s-diagnostics/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/11-triage-incidents-prod/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/11-triage-incidents-prod/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/11-triage-incidents-prod/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/12-cheatsheet-entretien/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/observabilite/12-cheatsheet-entretien/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/observabilite/12-cheatsheet-entretien/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/superpowers/plans/2026-10-07-bilingual-docs-en/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/superpowers/plans/2026-10-07-bilingual-docs-en/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/superpowers/plans/2026-10-07-bilingual-docs-en/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/superpowers/specs/2026-10-07-bilingual-docs-design/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/superpowers/specs/2026-10-07-bilingual-docs-design/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/superpowers/specs/2026-10-07-bilingual-docs-design/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/01-fondamentaux-hcl/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/01-fondamentaux-hcl/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/01-fondamentaux-hcl/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/02-commandes-cycle-vie/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/02-commandes-cycle-vie/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/02-commandes-cycle-vie/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/03-state-remote-backend/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/03-state-remote-backend/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/03-state-remote-backend/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/04-variables-locals-outputs/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/04-variables-locals-outputs/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/04-variables-locals-outputs/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/05-modules/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/05-modules/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/05-modules/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/06-aws-networking/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/06-aws-networking/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/06-aws-networking/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/07-aws-iam/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/07-aws-iam/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/07-aws-iam/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/08-provisionnement-infra/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/08-provisionnement-infra/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/08-provisionnement-infra/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/09-ci-cd-automation/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/09-ci-cd-automation/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/09-ci-cd-automation/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/10-cheatsheet-entretien/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/10-cheatsheet-entretien/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/10-cheatsheet-entretien/"/>
+    </url>
+    <url>
+        <loc>https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/terraform-aws/</loc>
+        <lastmod>2026-10-07</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://yassinekamouss.github.io/devops_interview_prep/en/terraform-aws/terraform-aws/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://yassinekamouss.github.io/devops_interview_prep/terraform-aws/terraform-aws/"/>
     </url>
 </urlset>
