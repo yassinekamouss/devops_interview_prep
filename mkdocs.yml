@@ -10,7 +10,7 @@ extra_javascript:
 
 theme:
   name: material
-  language: en
+  language: fr
 
   palette:
     # Light mode
@@ -36,8 +36,6 @@ theme:
     code: JetBrains Mono
 
   features:
-    - navigation.instant
-    - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
@@ -55,7 +53,134 @@ theme:
     - toc.follow
 
 plugins:
-  - search
+  - search:
+      lang:
+        - fr
+        - en
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: fr
+          name: Français
+          default: true
+          build: true
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            Home: Home
+            Docker: Docker
+            "Vue d'ensemble": Overview
+            "1. Introduction à Docker": "1. Docker Introduction"
+            "2. Architecture interne": "2. Internal Architecture"
+            "3. Installation": "3. Installation"
+            "4. Images Docker": "4. Docker Images"
+            "5. Les conteneurs": "5. Containers"
+            "6. Dockerfile": "6. Dockerfile"
+            "7. Réseau Docker": "7. Docker Networking"
+            "8. Volumes": "8. Volumes"
+            "9. Variables d'environnement": "9. Environment Variables"
+            "10. Docker Compose": "10. Docker Compose"
+            "11. Registres Docker": "11. Docker Registries"
+            "12. Sécurité Docker": "12. Docker Security"
+            "13. Débogage": "13. Debugging"
+            "14. Docker en production": "14. Production Docker"
+            "15. Docker et DevOps": "15. Docker & DevOps"
+            "16. Docker et Kubernetes": "16. Docker & Kubernetes"
+            "17. Questions d'entretien Oracle": "17. Oracle Interview Questions"
+            Git: Git
+            "Vue d'ensemble ": Overview
+            "01 Fondamentaux et cycle": "01 Fundamentals & Cycle"
+            "02 Commits et historique": "02 Commits & History"
+            "03 Branches et merge": "03 Branches & Merge"
+            "04 Conflits et rebase": "04 Conflicts & Rebase"
+            "05 Reset revert amend": "05 Reset, Revert, Amend"
+            "06 Stash": "06 Stash"
+            "07 Workflow et bonnes pratiques": "07 Workflow & Best Practices"
+            "08 Cheatsheet entretien": "08 Interview Cheatsheet"
+            LeetCode: LeetCode
+            "01 Hash Maps et Sets": "01 Hash Maps & Sets"
+            "02 Two Pointers": "02 Two Pointers"
+            "03 Sliding Window": "03 Sliding Window"
+            "04 Binary Search": "04 Binary Search"
+            "05 Stack et Monotonic Stack": "05 Stack & Monotonic Stack"
+            "06 Linked Lists": "06 Linked Lists"
+            "07 Fast et Slow Pointers": "07 Fast & Slow Pointers"
+            "08 Trees et DFS": "08 Trees & DFS"
+            "09 BFS": "09 BFS"
+            "10 Heaps et Priority Queues": "10 Heaps & Priority Queues"
+            "11 Intervals": "11 Intervals"
+            "12 Prefix Sum": "12 Prefix Sum"
+            "13 Backtracking": "13 Backtracking"
+            "14 Graphs": "14 Graphs"
+            "15 Topological Sort": "15 Topological Sort"
+            "16 Union Find": "16 Union Find"
+            "17 Greedy": "17 Greedy"
+            "18 Dynamic Programming": "18 Dynamic Programming"
+            "19 Dijkstra": "19 Dijkstra"
+            "20 Minimum Spanning Tree": "20 Minimum Spanning Tree"
+            "21 Trie": "21 Trie"
+            "22 Bit Manipulation": "22 Bit Manipulation"
+            "23 Pattern Combinations": "23 Pattern Combinations"
+            "24 Cheatsheet entretien": "24 Interview Cheatsheet"
+            "CI/CD": "CI/CD"
+            "01 Introduction à CI/CD": "01 CI/CD Introduction"
+            "02 Architecture et pipeline": "02 Architecture & Pipeline"
+            "03 Outils et plateformes": "03 Tools & Platforms"
+            "04 Qualité et DevSecOps": "04 Quality & DevSecOps"
+            "05 Strategies de déploiement": "05 Deployment Strategies"
+            "06 Artefacts et secrets": "06 Artifacts & Secrets"
+            "07 Introduction à GitOps": "07 GitOps Introduction"
+            "08 Bonnes pratiques": "08 Best Practices"
+            "09 Cheatsheet entretien": "09 Interview Cheatsheet"
+            Kubernetes: Kubernetes
+            "00 Architecture et Fondamentaux ": "00 Architecture & Fundamentals"
+            "01 Workloads & Cycle de vie ": "01 Workloads & Lifecycle"
+            "02 Réseau & Sécurité (Deep Dive) ": "02 Networking & Security (Deep Dive)"
+            "03 Stockage & Configuration ": "03 Storage & Configuration"
+            "04 Scheduling & Scalabilité ": "04 Scheduling & Scalability"
+            "05 Observabilité & Troubleshooting ": "05 Observability & Troubleshooting"
+            "06 Templating & GitOps ": "06 Templating & GitOps"
+            "07 Production & Cloud Managed (OKE / EKS) ": "07 Production & Cloud Managed (OKE / EKS)"
+            "08 Cheatsheet Entretien R&D ": "08 R&D Interview Cheatsheet"
+            "GitOps (ArgoCD)": "GitOps (ArgoCD)"
+            "01 Fondamentaux & Principes": "01 Fundamentals & Principles"
+            "02 Architecture interne ArgoCD": "02 ArgoCD Internal Architecture"
+            "03 CRDs (Application & AppProject)": "03 CRDs (Application & AppProject)"
+            "04 Multi-Cluster & ApplicationSet": "04 Multi-Cluster & ApplicationSet"
+            "05 Sync Waves, Hooks & Tracking": "05 Sync Waves, Hooks & Tracking"
+            "06 Gestion des Secrets": "06 Secrets Management"
+            "07 Argo Rollouts (Canary & Blue-Green)": "07 Argo Rollouts (Canary & Blue-Green)"
+            "08 Sécurité, RBAC & Multi-Tenancy": "08 Security, RBAC & Multi-Tenancy"
+            "09 Troubleshooting & Incidents": "09 Troubleshooting & Incidents"
+            "10 Cheatsheet Entretien R&D": "10 R&D Interview Cheatsheet"
+            "Terraform & AWS": "Terraform & AWS"
+            "01 Fondamentaux IaC & Syntaxe HCL": "01 IaC Fundamentals & HCL Syntax"
+            "02 Commandes Core & Cycle de vie": "02 Core Commands & Lifecycle"
+            "03 Le State & Remote Backend (S3 + DynamoDB)": "03 State & Remote Backend (S3 + DynamoDB)"
+            "04 Variables, Locals & Outputs": "04 Variables, Locals & Outputs"
+            "05 Création et utilisation de Modules": "05 Creating & Using Modules"
+            "06 AWS Networking (VPC, Subnets, SG, NAT)": "06 AWS Networking (VPC, Subnets, SG, NAT)"
+            "07 AWS IAM & Sécurité (Policies, Roles)": "07 AWS IAM & Security (Policies, Roles)"
+            "08 Provisionnement Cloud (EKS, EC2, S3, RDS)": "08 Cloud Provisioning (EKS, EC2, S3, RDS)"
+            "09 Automatisation (Terraform via CI/CD)": "09 Automation (Terraform via CI/CD)"
+            "10 Cheatsheet Entretien": "10 Interview Cheatsheet"
+            "Observabilité & Monitoring": "Observability & Monitoring"
+            "01 Fondamentaux (M.E.L.T, SLI/SLO/SLA, Golden Signals)": "01 Fundamentals (M.E.L.T, SLI/SLO/SLA, Golden Signals)"
+            "02 Méthodes d'Analyse (USE & RED Frameworks)": "02 Analysis Methods (USE & RED Frameworks)"
+            "03 Prometheus Architecture & Service Discovery": "03 Prometheus Architecture & Service Discovery"
+            "04 Métriques Prometheus (Counter, Gauge, Histogram, Summary)": "04 Prometheus Metrics (Counter, Gauge, Histogram, Summary)"
+            "05 Requêtage Avancé PromQL (rate, histogram_quantile, vecteurs)": "05 Advanced PromQL (rate, histogram_quantile, vectors)"
+            "06 Alertmanager (Alerting rules, Inhibition, Silences)": "06 Alertmanager (Alerting rules, Inhibition, Silences)"
+            "07 Dashboards Grafana & Alertes Unifiées": "07 Grafana Dashboards & Unified Alerts"
+            "08 OpenTelemetry (OTel Collector, Traces, Spans, W3C)": "08 OpenTelemetry (OTel Collector, Traces, Spans, W3C)"
+            "09 AWS Native Observability (CloudWatch Metrics, Logs Insights & Alarms)": "09 AWS Native Observability (CloudWatch Metrics, Logs Insights & Alarms)"
+            "10 Kubernetes Diagnostics (CrashLoopBackOff, OOMKilled, Throttling)": "10 Kubernetes Diagnostics (CrashLoopBackOff, OOMKilled, Throttling)"
+            "11 Triage de Production (Latence P95/P99, Codes 5xx, Network)": "11 Production Triage (P95/P99 Latency, 5xx, Network)"
+            "12 Cheatsheet Entretien & Scénarios Incident Response": "12 Interview Cheatsheet & Incident Response"
 
 markdown_extensions:
   - admonition
